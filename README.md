@@ -17,5 +17,5 @@ Projeto real de um refrigerador com pastilha peltier e sensor de temperatura.
 
 ------------
 
-O código se encontra no arquivo controler.c disponível neste repositório.
+O código se encontra no arquivo controler.ino disponível neste repositório.
 
