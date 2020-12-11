@@ -60,7 +60,6 @@ void setup(void)
  
 void loop(void) 
 {
-  u8g.firstPage();
   if(flag){
     temperature = temp.getTemp(); 
     if (temperature < 22){
@@ -73,6 +72,7 @@ void loop(void)
     flag = false;
   }
  
+  u8g.firstPage();
   do {
     draw();  
   } while( u8g.nextPage() );
